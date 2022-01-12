@@ -17,15 +17,4 @@ bspc rule -a Zathura state tiled
 #bspc config pointer_action2 resize_corner
 ###OTHER SETTINGS & AUTOSTART###
 pgrep -x sxhkd > /dev/null || sxhkd &
-dunst & 
-xsetroot -cursor_name left_ptr &
-xbacklight -set 30
-xinput set-prop 12 309 1
-#picom --config ~/.config/picom/picom.conf &
-picom --config ~/.config/picom/picom.conf --experimental-backends &
-#nitrogen --restore
-feh --bg-fill ~/.config/bspwm/0345.png
-polybar example -c ~/.config/polybar/config.ini
-ncmpcpp
-#mpd &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+$HOME/.config/bspwm/autostart.sh
