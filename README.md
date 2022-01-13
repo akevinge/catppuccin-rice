@@ -25,7 +25,7 @@
 - You need to install all the fonts above, otherwise some of the icons won't load properly
 - I use 6 workspace, you can adjust how many workspace you need in bspwmrc. Don't forget to add your workspace icon inside polybar config
 - You also need to edit some config to match your needs
-- You need to run ```chmod +x ~/.config/bspwm/bspwmrc``` after copying all the things
+- You need to run ```chmod +x ~/.config/bspwm/bspwmrc && chmod +x ~/.config/bspwm/autostart.sh``` after copying all the things
 
 # Credits
 
