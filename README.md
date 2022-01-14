@@ -17,7 +17,7 @@
 - **Music player:** mpd & ncmpcpp
 - **Colorscheme i use:** [Catppuccin](https://github.com/catppuccin/catppuccin)
 - **Fonts:** JetBrains mono, Source Code Pro, Hack, Material Design Icon, fontawesome 5, etc
-
+- **Notification daemon:** Dunst
 
 # What you should know
 
