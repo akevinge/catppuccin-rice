@@ -10,17 +10,13 @@ super + r
 super + n
     pcmanfm
 
-#Conky-toggle
-super + c
-    conky-toggle
-
 #Htop
 super + h
     alacritty 'htop task manager' -e htop
 
-#arcolinux-logout
+#logout menu
 super + x
-    arcolinux-logout
+    dm-logout
 
 #alacritty
 super + Return
@@ -30,17 +26,13 @@ super + Return
 super + shift + Return
 	bspc rule -a alacritty -o state=floating follow=on center=true rectangle=490x310+0+0 && alacritty
 
-#Xkill
+#reload sxhkd
 super + Escape
-    xkill
+    pkill -USR1 -x sxhkd
 
 #kill
 super + q
 	bspc node -c
-
-#kill
-super + x
-	arcolinux-logout
 	
 ## Move floating windows
 alt + shift + {Left,Down,Up,Right}
@@ -64,10 +56,6 @@ super + f
 #dmenu
 super + shift + d
 	dmenu_run -bw 2 -l 20 -g 4 -p 'Run:'
-    
-#reload sxhkd:
-super + shift + s
-	pkill -USR1 -x sxhkd
 
 #shift to workspace
 super + shift + {1-9,0}
